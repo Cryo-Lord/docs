@@ -71,7 +71,7 @@ For a complete list of supported operations and functions, refer to the [math.js
 
 **Q: Can I use variables in my math expressions?**
 
-A: Yes, you can use other StreamElements variables within your `$(math)` expression. For example: `$(math "{points} * 2")` would double the user's points.
+A: Yes, you can use other StreamElements variables within your `$(math)` expression. For example: `$(math "${points} * 2")` would double the user's points.
 
 **Q: Is there a limit to the complexity of expressions I can use?**
 
